@@ -1,4 +1,4 @@
-# Ethernamed 
+# EthernaMed 
 
 
 
@@ -44,17 +44,13 @@
    - This feature will provide users with the ability to conveniently schedule appointments with doctors in their vicinity, tailored to address their specific medical concerns.
 
 
-How It Works
-Data Preprocessing: Normalization: The pixel values of images are normalized to a range of 0 to 1. 
-Data Augmentation: The training data is augmented using Keras' ImageDataGenerator, applying transformations such as rotation, flipping, zooming, and shifting. SMOTE Resampling: The class imbalance is handled using SMOTE, ensuring the minority class is not underrepresented.
-
-Model:
-
-Architecture: The CNN consists of multiple convolutional layers with ReLU activation followed by max-pooling layers. The final layers include a fully connected network with a softmax output for binary classification (Autism/No Autism). Regularization: Dropout is applied to prevent overfitting during training. Optimizer: Adam optimizer is used with a learning rate of 0.001 for efficient training.
-
-Training:
-
-The model is trained using the ImageDataGenerator on the resampled and augmented dataset. Early stopping ensures that training halts when validation accuracy stops improving, while a model checkpoint saves the best version of the model during training.
+# Dataset
+Datasets:
+Chest X-ray14 (Pneumonia Dataset).
+Diabetes Dataset.
+Brain Tumor MRI Dataset.
+Tuberculosis (TB) Chest X-ray Database.
+Osteoporosis Dataset.
 
 
 Key Features:
@@ -80,26 +76,30 @@ MongoDB: A NoSQL database for storing application data.
 Flask: A Python microframework for additional backend services.
 Cloudinary: For handling and storing media assets like images.
 
-How It Works:
+# How It Works:
 The project initializes a simple CNN using Keras. Two versions of the model are trained: one with a quantum layer and one without.
 The dataset is preprocessed, and the images are converted into a format suitable for training.
 The models are trained for 30 epochs, with the results saved and visualized.
-Results:
+
+# Results:
 After training, the notebook outputs a comparison of accuracy and loss for both the quantum-enhanced and classical models, helping assess the impact of quantum layers on performance.
 
-Installation:
+# Installation:
 
 Prerequisites: To run this project, you'll need to install the following dependencies:
 
-Python 3.11+
-TensorFlow 2.17
-Keras
-Scikit-learn
-Imbalanced-learn
-Pillow
+Python 3.11+.
+TensorFlow 2.17.
+Keras.
+Scikit-learn.
+Imbalanced-learn.
+Pillow.
+PyTroch.
+OpenVINO Toolkit.
+
 You can install the required packages using the provided requirements.txt file: pip install -r requirements.txt
 
-Contributing
+# Contributing
 Contributions to the project are welcome! To contribute:
 
 Fork the repository.
@@ -107,4 +107,9 @@ Create a new feature branch (git checkout -b feature/AmazingFeature).
 Commit your changes (git commit -m 'Add some amazing feature').
 Push to the branch (git push origin feature/AmazingFeature).
 Open a Pull Request.
+
+# Watch The Video Below:
+[![Alt Text](https://github.com/user-attachments/assets/0037f8ab-dacd-4c11-bb16-784a53432a40)]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://youtu.be/fsfGnpKZYOk))
+
+
 
