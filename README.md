@@ -45,12 +45,12 @@
 
 
 # Dataset
-Datasets:
-Chest X-ray14 (Pneumonia Dataset).
-Diabetes Dataset.
-Brain Tumor MRI Dataset.
-Tuberculosis (TB) Chest X-ray Database.
-Osteoporosis Dataset.
+ - Datasets:
+ - Chest X-ray14 (Pneumonia Dataset).
+ - Diabetes Dataset.
+ - Brain Tumor MRI Dataset.
+ - Tuberculosis (TB) Chest X-ray Database.
+ - Osteoporosis Dataset.
 
 
 Key Features:
@@ -88,14 +88,13 @@ After training, the notebook outputs a comparison of accuracy and loss for both 
 
 Prerequisites: To run this project, you'll need to install the following dependencies:
 
-Python 3.11+.
-TensorFlow 2.17.
-Keras.
-Scikit-learn.
-Imbalanced-learn.
-Pillow.
-PyTroch.
-OpenVINO Toolkit.
+- Python 3.11+.
+- TensorFlow 2.17.
+- Keras.
+- Imbalanced-learn.
+- Pillow.
+- PyTroch.
+- OpenVINO Toolkit.
 
 You can install the required packages using the provided requirements.txt file: pip install -r requirements.txt
 
