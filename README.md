@@ -44,13 +44,16 @@
    - This feature will provide users with the ability to conveniently schedule appointments with doctors in their vicinity, tailored to address their specific medical concerns.
 
 
-# Dataset
- - Datasets:
- - Chest X-ray14 (Pneumonia Dataset).
- - Diabetes Dataset.
- - Brain Tumor MRI Dataset.
- - Tuberculosis (TB) Chest X-ray Database.
- - Osteoporosis Dataset.
+## Datasets
+
+Here are the datasets used in this project:
+
+- **[Chest X-ray14 (Pneumonia Dataset)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)**  
+- **[Diabetes Dataset](https://www.kaggle.com/datasets/mathchi/diabetes-data-set)**  
+- **[Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)**  
+- **[Tuberculosis (TB) Chest X-ray Database](https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset)**  
+- **[Osteoporosis Dataset](https://www.kaggle.com/datasets/amitvkulkarni/lifestyle-factors-influencing-osteoporosis)**  
+
 
 
 Key Features:
