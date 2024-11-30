@@ -111,7 +111,8 @@ Push to the branch (git push origin feature/AmazingFeature).
 Open a Pull Request.
 
 # Watch The Video Below:
-[![Alt Text](https://github.com/user-attachments/assets/0037f8ab-dacd-4c11-bb16-784a53432a40)]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://youtu.be/fsfGnpKZYOk))
+[![Video Thumbnail](https://github.com/user-attachments/assets/0037f8ab-dacd-4c11-bb16-784a53432a40)](https://youtu.be/fsfGnpKZYOk)
+
 
 
 
